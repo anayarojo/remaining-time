@@ -46,3 +46,11 @@ $(document).ready(function(){
     });
 });
 ```
+
+### Documentation
+
+[JavaScript Date](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
+
+[Dates calculations](https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript)
+
+[Semantic UI](https://semantic-ui.com/modules/shape.html)
