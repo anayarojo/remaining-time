@@ -4,6 +4,8 @@ Component for show remaining time
 ### Demo
 ![Remaining time demo](https://raw.githubusercontent.com/anayarojo/remaining-time/master/demo.gif)
 
+[Live Demo](https://anayarojo.github.io/remaining-time/)
+
 ### Usage
 
 Include required resources:
