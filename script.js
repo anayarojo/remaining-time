@@ -25,22 +25,22 @@ var CubeRemainingTime = (function()
 
             if(remaining.days != _days){
                 _days = remaining.days;
-                updateElement($days, _days, _days > 1 ? 'Dias' : 'Día');
+                updateElement($days, _days, _days != 1 ? 'Dias' : 'Día');
             }
 
             if(remaining.hours != _hours){
                 _hours = remaining.hours;
-                updateElement($hours, _hours, _hours > 1 ? 'Horas' : 'Hora');
+                updateElement($hours, _hours, _hours != 1 ? 'Horas' : 'Hora');
             }
 
             if(remaining.minutes != _minutes){
                 _minutes = remaining.minutes;
-                updateElement($minutes, _minutes, _minutes > 1 ? 'Minutos' : 'Minuto');
+                updateElement($minutes, _minutes, _minutes != 1 ? 'Minutos' : 'Minuto');
             }
 
             if(remaining.seconds != _seconds){
                 _seconds = remaining.seconds;
-                updateElement($seconds, _seconds, _seconds > 1 ? 'Segundos' : 'Segundo');
+                updateElement($seconds, _seconds, _seconds != 1 ? 'Segundos' : 'Segundo');
             }
 
         }, 1000);
